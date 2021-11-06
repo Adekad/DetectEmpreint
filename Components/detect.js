@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, TouchableOpacity, Button, ToastAndroid, ImageBackground, ScrollView, TextInput, Text } from 'react-native'
+import { StyleSheet, View, TouchableOpacity, Button, ToastAndroid as Toast, ImageBackground, ScrollView, TextInput, Text } from 'react-native'
 import Fingerprint from 'react-native-fingerprint-android';
 
 class Detect extends React.Component {
@@ -41,7 +41,6 @@ class Detect extends React.Component {
   render() {
     return(
       <View style={styles.container}>
-          <Text style={styles.text_input}>Hello Word</Text>
           {this._essai()}
       </View>
     )
