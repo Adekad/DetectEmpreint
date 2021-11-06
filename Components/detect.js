@@ -10,8 +10,7 @@ class Detect extends React.Component {
   }
 
   _test = () => {
-      ToastAndroid.show("Hello word", ToastAndroid.SHORT);
-      <Button title="Toast" onPress={() => this._test()}/>
+      this.props.navigation.navigate("Validation")
   }
 
   _essai = () => {
