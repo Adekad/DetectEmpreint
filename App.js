@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+/*import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -18,4 +18,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+});*/
+
+
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import Detect from './Components/detect'
+
+export default class App extends React.Component{
+  render(){
+    return(
+        <Detect/>
+      )
+  }
+}
